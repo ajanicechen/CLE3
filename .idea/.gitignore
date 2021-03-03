@@ -1,5 +1,11 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+<<<<<<< HEAD
+# Datasource local storage ignored files
+/../../../../../:\xampp\htdocs\loempiagang\.idea/dataSources/
+/dataSources.local.xml
+=======
+>>>>>>> origin/main
 # Editor-based HTTP Client requests
 /httpRequests/
