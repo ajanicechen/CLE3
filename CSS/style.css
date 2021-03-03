@@ -1,5 +1,13 @@
 body{
-    background-color: #9eff57;
+    padding: 20px;
+    animation: colorchange 60s linear 1s infinite;
+}
+@keyframes colorchange
+{
+    0%   {background: #fd5252; }
+    33%  {background: #65ff65; }
+    66%  {background: #78ffef; }
+    100% {background: #f37373; }
 }
 header{
     background-color: #b16efa;
@@ -11,6 +19,12 @@ header{
     height: 125px;
     margin: auto;
 }
-
 main{
+    padding: 125px;
+}
+form{
+    border-style: solid;
+    margin: auto;
+    width: 400px;
+    height: 125px;
 }
