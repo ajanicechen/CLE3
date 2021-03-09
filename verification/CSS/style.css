@@ -21,6 +21,7 @@ header{
     height: 125px;
     margin: auto;
 }
+
 main{
     padding: 125px;
 }
@@ -46,6 +47,18 @@ input[type=submit] {
     text-transform: uppercase;
     font-weight: bold;
     font-family: Avenir,Helvetica,Arial;
+}
+
+.buttons{
+    border: none;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 32px 32px;
+    margin: 10px;
+    justify-content: center;
 }
 
 input{
