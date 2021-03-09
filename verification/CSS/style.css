@@ -47,3 +47,7 @@ input[type=submit] {
     font-weight: bold;
     font-family: Avenir,Helvetica,Arial;
 }
+
+input{
+    text-align: center;
+}
