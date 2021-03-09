@@ -13,13 +13,14 @@ body{
 }
 header{
     background-color: #d5bbff;
-    font-size: 50px;
+    font-size: 20px;
     color: #ffffff;
     text-align: center;
     border-style: solid;
     width: 400px;
     height: 125px;
     margin: auto;
+    padding: 10px 10px;
 }
 
 main{

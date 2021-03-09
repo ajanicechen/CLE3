@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <p>What should the main character do??</p>
+        <h1>What should main character do??</h1>
     </header>
     <main>
         <form action="">
