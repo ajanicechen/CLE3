@@ -13,11 +13,12 @@
 </head>
 <body>
     <header>
-        <p>Theater zuidplein</p>
+        <p>What should the main character do??</p>
     </header>
     <main>
         <form action="">
-            <input type="text" id="code" name="code" value=""><br>
+            <button class="buttons">Choice A</button>
+            <button class="buttons">Choice B</button>
             <input type="submit" value="Submit">
         </form>
     </main>
