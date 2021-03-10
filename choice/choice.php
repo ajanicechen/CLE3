@@ -13,14 +13,14 @@
 </head>
 <body>
     <header>
-        <h1>What should Main Character do??</h1>
+        <h2>What should Main Character do??</h2>
     </header>
-    <main>
-        <form action="">
-            <button class="buttons A">Choice A</button>
-            <button class="buttons B">Choice B</button>
-            <input type="submit" value="Submit">
-        </form>
-    </main>
+        <main>
+            <form action="">
+                <button class="buttons A">Choice A</button>
+                <button class="buttons B">Choice B</button>
+                <input type="submit" value="submit">
+            </form>
+        </main>
 </body>
 </html>
