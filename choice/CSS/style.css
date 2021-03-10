@@ -8,8 +8,8 @@ header {
     margin: 0 0;
 }
 
-h1{
-    font-size: ;
+h2{
+    font-size: 30px;
 }
 
 body {
@@ -52,7 +52,11 @@ main {
 }
 
 .B{
-    background-color: #5daede;
+    background-color: #55a1cd;
+}
+
+input[type=text]{
+    margin-bottom: 25px;
 }
 
 input[type=submit]{
@@ -70,7 +74,7 @@ input[type=submit]{
     margin: auto;
 }
 
-form{
+form, .welcome{
     text-align: center;
     border: none;
     border-radius: 20px;
