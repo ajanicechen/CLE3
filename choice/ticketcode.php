@@ -12,7 +12,8 @@
 </head>
 <body>
 <header>
-    <h1>Theater zuidplein</h1>
+    <h1>Theater Zuidplein <br> Branching storyline</h1>
+
 </header>
 <main>
     <form action="">
