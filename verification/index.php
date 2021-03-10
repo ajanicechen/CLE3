@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <p>Theater zuidplein</p>
+        <h1>Theater zuidplein</h1>
     </header>
     <main>
         <form action="">
