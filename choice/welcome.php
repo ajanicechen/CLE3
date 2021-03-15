@@ -15,9 +15,11 @@
     <main>
         <div class="welcome">
             <h2>Welcome to Gintama Live Action!<br>
-            Play will start soon,<br>
-            please wait...
+                <p>Play will start soon,</p>
+                <p>please wait...</p>
+                <p id="countdown"></p>
         </div>
+        <script type="text/javascript" src="js/main.js"></script>
     </main>
 </body>
 </html>
