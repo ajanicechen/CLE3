@@ -14,10 +14,10 @@
 <body>
     <main>
         <div class="welcome">
-            <h2>Welcome to Gintama Live Action!<br>
-                <p>Play will start soon,</p>
-                <p>please wait...</p>
-                <p id="countdown"></p>
+            <h2>Welcome to Gintama Live Action!</h2>
+            <h2>Play will start soon,</h2>
+            <h2>Please wait...</h2>
+            <h2 id="countdown"></h2>
         </div>
         <script type="text/javascript" src="js/main.js"></script>
     </main>
