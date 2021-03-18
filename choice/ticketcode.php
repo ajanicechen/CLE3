@@ -16,7 +16,7 @@
 
 </header>
 <main>
-    <form action="">
+    <form action="welcome.php" method="post">
         <h2>Please enter ticket code</h2>
         <input type="text" id="code" name="code" value="">
         <input type="submit" value="Submit">

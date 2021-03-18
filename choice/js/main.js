@@ -27,3 +27,4 @@ let x = setInterval(function() {
         location.replace("choice.php");
     }
 }, 1000);
+
