@@ -9,11 +9,11 @@
 <body>
 <header>Storytelling taptile</header>
 <nav>
-    <div>PROGRAMMA</div>
-    <div>BEZOEKERS INFORMATIE</div>
-    <div>HET THEATER</div>
-    <div>ZAKELIJK</div>
-    <div>STEUN ONS</div>
+
+    <div id="story">Storyline taptile</div>
+    <div id="deel">Deelnamen</div>
+    <div id="over">Over ons</div>
+    <div id="steun">Steun ons</div>
 </nav>
 <main>
 
@@ -23,36 +23,37 @@
         <!-- slideshow with numbers and fade effect -->
         <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
-                <img src="../../CLE3-Backup/onePager/img/macbook-3.png" >
-            <div class="text">Theater zuidplein</div>
+            <img src="img/macbook-3.png" >
+            <div class="text">Story taptile op Desktop versie</div>
         </div>
         <div class="mySlides fade">
             <div class="numbertext">2 / 3</div>
-                <img src="../../CLE3-Backup/onePager/img/phone1.png" >
-            <div class="text">Theater zuidplein</div>
+            <img src="img/phone1.png" >
+            <div class="text">Story taptile op Telefoon versie</div>
         </div>
         <div class="mySlides fade">
             <div class="numbertext">3 / 3</div>
-                <img src="img/TZ_4-1047x648-c-center.jpg" >
-            <div class="text">Theater zuidplein</div>
+            <img src="img/story.board.png" >
+            <div class="text">Screen stand op podium</div>
         </div>
 
         <!-- buttons for previous and next inside slideshow container  -->
         <a id="prev">&#10094;</a>
         <a id="next">&#10095;</a>
     </div>
-    <br>
-
-    <!-- dots on click-->
-    <div id="dots">
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-    </div>
 
     <!-- text in a white box -->
-    <section>
-        <h1>Lorem ipsum</h1>
+    <section id="storysection">
+        <h1>Storyline taptile</h1>
+        <p>
+            De Storyline taptile geeft je de mogelijkheid om zelf je verhaal te bepalen.
+            Je kan dan naar meerdere kanten op. Of het nou goed is of niet, dat bepaal jij zelf!
+        </p>
+    </section>
+
+
+    <section id="deelsection">
+        <h1>Deelnamen</h1>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
             Aenean commodo ligula eget dolor. Aenean massa.
             Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
@@ -64,8 +65,9 @@
             Curabitur ullamcorper ultricies nisi. Nam eget dui.
         </p>
     </section>
-    <section>
-        <h1>Lorem ipsum</h1>
+
+    <section id="oversection">
+        <h1>Over ons</h1>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
             Aenean commodo ligula eget dolor. Aenean massa.
             Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
@@ -77,8 +79,20 @@
             Curabitur ullamcorper ultricies nisi. Nam eget dui.
         </p>
     </section>
-    <!-- knop naar de ticket code pagina -->
-    <a id="knop" href="../choice/ticketcode.php">Join Theater</a>
+
+    <section id="steunsection">
+        <h1>Steun ons</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            Aenean commodo ligula eget dolor. Aenean massa.
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+            Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+            Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+            Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
+            Curabitur ullamcorper ultricies nisi. Nam eget dui.
+        </p>
+    </section>
 </main>
 <footer>
     <p>Theater Zuidplein <br>
@@ -89,5 +103,6 @@
         info@theaterzuidplein.nl</p>
 </footer>
 <script src="javascript/slideShow.js"></script>
+<script src="javascript/autoscroll.js"></script>
 </body>
 </html>
