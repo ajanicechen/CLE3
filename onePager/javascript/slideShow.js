@@ -1,3 +1,4 @@
+//next and prev slide function
 let currentSlide = 1;
 let slides = document.getElementsByClassName("mySlides")
 titleImageSlides();

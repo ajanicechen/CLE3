@@ -59,15 +59,16 @@ h1 {
 
 
 section {
-    margin: 70px;
+    margin: 65px;
     padding: 20px;
     background-color: white;
     border-radius: 10px;
     border: solid;
 }
 
-img {
-    width: 50%;
+.uitleg{
+    width: 75%;
+    padding: 10px;
 }
 
 header {
@@ -77,7 +78,8 @@ header {
     font-size: 2em;
     font-weight: bolder;
     color: white;
-    background-image: url(https://theaterzuidplein.nl/wp-content/uploads/2020/05/TZ_4-1047x648-c-center.jpg);
+    text-shadow: #333439;
+    background-image: url('../img/TZ_4-1047x648-c-center.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -86,6 +88,7 @@ footer {
     background-color: #808083;
     padding: 70px 50px;
     color: white;
+    text-align: center;
 }
 
 

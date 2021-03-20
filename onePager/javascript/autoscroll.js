@@ -1,4 +1,4 @@
-//section finder with button
+//auto scroll to section with nav button
 const storyButton = document.querySelector("#story")
 const storySection = document.querySelector("#storysection")
 
