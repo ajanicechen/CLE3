@@ -5,6 +5,7 @@ body {
     font-family: sans-serif;
     animation: colorchange 60s linear 1s infinite;
 }
+
 @keyframes colorchange
 {
     0%   {background: #95c11f; }
@@ -38,25 +39,14 @@ nav div {
     transition: all 0.4s ease-out;
 }
 
-nav a {
-    padding: 10px;
-    width:100vw;
-    text-align: center;
-    background-color: #808083;
-    cursor: pointer;
-    transition: all 0.4s ease-out;
-}
-
 nav div:hover {
     background-color: white;
     color: #808083;
 }
 
-
 h1 {
     margin: 0;
 }
-
 
 section {
     margin: 65px;
@@ -66,7 +56,7 @@ section {
     border: solid;
 }
 
-.uitleg{
+.explain{
     width: 75%;
     padding: 10px;
 }
@@ -94,7 +84,6 @@ footer {
 a {
     color:black;
 }
-
 
 @media screen and (max-width: 550px) {
     nav {

@@ -12,9 +12,8 @@
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
+    padding: 15px;
+    color: #ffffff;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -23,21 +22,20 @@
 /* Position the "next button" to the right */
 #next {
     right: 0;
-    border-radius: 3px 0 0 3px;
 }
 
 /* on hover, */
 #prev:hover, #next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: #212121;
 }
 
 /* Caption text */
 .text {
     color: #f2f2f2;
     font-size: 15px;
-    padding: 8px 12px;
+    padding-bottom: 20px;
     position: absolute;
-    bottom: 8px;
+    bottom: 0;
     width: 100%;
     text-align: center;
 }
@@ -46,15 +44,10 @@
 .numbertext {
     color: #f2f2f2;
     font-size: 15px;
-    padding: 8px 12px;
+    padding-top: 10px;
     position: absolute;
     width: 100%;
     text-align: center;
-}
-
-/* The dots */
-.active{
-    background-color: #717171;
 }
 
 /* Fading animation */
