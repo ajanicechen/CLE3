@@ -4,6 +4,7 @@ body {
     color: #333439;
     font-family: sans-serif;
     animation: colorchange 60s linear 1s infinite;
+
 }
 
 @keyframes colorchange
@@ -21,23 +22,21 @@ main {
 }
 
 nav {
-    display: flex;
     color: white;
     font-weight: bolder;
     font-size: 1.2em;
-    justify-content: space-around;
     background-color: #808083;
+    display: flex;
 }
 
 nav div {
     padding-bottom: 10px;
     padding-top: 10px;
+    flex-grow: 1;
     text-align: center;
     background-color: #808083;
     cursor: pointer;
     transition: all 0.4s ease-out;
-    width: 1000px;
-
 }
 
 nav div:hover {
@@ -90,9 +89,9 @@ a {
     nav {
         display: block;
         position: center;
+
     }
     nav div{
         text-align: center;
-        max-width: 90vw;
     }
 }
