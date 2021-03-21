@@ -58,7 +58,8 @@ section {
 
 .explain{
     width: 75%;
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 header {
@@ -88,10 +89,8 @@ a {
 @media screen and (max-width: 550px) {
     nav {
         display: block;
-        position: center;
-
     }
-    nav div{
-        text-align: center;
+    .explain{
+        width: 100%;
     }
 }
