@@ -1,44 +1,29 @@
-let slideIndex = 1;
-showSlides(slideIndex);
+//next and prev slide function
+let currentSlide = 1;
+let slides = document.getElementsByClassName("mySlides")
+titleImageSlides();
 
-// Next/previous controls
-document.getElementById("prev").onclick= function (){
-    plusSlides(-1)
-};
-document.getElementById("next").onclick= function (){
-    plusSlides(+1)
-};
-
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-document.getElementsByClassName("dot").onclick= function (){
-    currentSlide()
-}
-
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
-
-    if (n > slides.length) {
-        slideIndex = 1
+document.getElementById("prev").onclick = function(){
+    currentSlide--;
+    if (currentSlide <1)
+    {
+        currentSlide = slides.length;
     }
-    if (n < 1) {
-        slideIndex = slides.length
+    titleImageSlides();
+}
+document.getElementById("next").onclick = function (){
+    currentSlide++;
+    if (currentSlide > slides.length)
+    {
+        currentSlide = 1;
     }
-    for (i = 0; i < slides.length; i++) {
+    titleImageSlides();
+}
+
+//show slides based on currentSlide
+function titleImageSlides() {
+    for (i = 0; i< slides.length; i++) {
         slides[i].style.display = "none";
     }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
+    slides[currentSlide-1].style.display = "block"
 }
