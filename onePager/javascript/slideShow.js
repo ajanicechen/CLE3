@@ -1,24 +1,29 @@
 //next and prev slide function
 let currentSlide = 1;
 let slides = document.getElementsByClassName("mySlides")
+const prevButton = document.getElementById("prev")
+const nextButton = document.getElementById("next")
 titleImageSlides();
 
-document.getElementById("prev").onclick = function(){
+
+prevButton.addEventListener("click", function(){
     currentSlide--;
     if (currentSlide <1)
     {
         currentSlide = slides.length;
     }
     titleImageSlides();
-}
-document.getElementById("next").onclick = function (){
+});
+
+
+nextButton.addEventListener("click", function(){
     currentSlide++;
     if (currentSlide > slides.length)
     {
         currentSlide = 1;
     }
     titleImageSlides();
-}
+});
 
 //show slides based on currentSlide
 function titleImageSlides() {
@@ -27,3 +32,4 @@ function titleImageSlides() {
     }
     slides[currentSlide-1].style.display = "block"
 }
+
