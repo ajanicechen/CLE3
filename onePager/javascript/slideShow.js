@@ -27,9 +27,13 @@ nextButton.addEventListener("click", function(){
 
 //show slides based on currentSlide
 function titleImageSlides() {
-    for (i = 0; i< slides.length; i++) {
-        slides[i].style.display = "none";
+    for (let i = 0; i< slides.length; i++) {
+        if (currentSlide.classList !== "block"){
+            slides[i].classList.remove("block");
+            slides[i].classList.add("none");
+        }
+        slides[currentSlide-1].classList.remove("none");
+        slides[currentSlide-1].classList.add("block");
     }
-    slides[currentSlide-1].style.display = "block"
 }
 

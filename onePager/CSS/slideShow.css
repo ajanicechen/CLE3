@@ -60,7 +60,11 @@ img{
     width: 100%;
 }
 
-.mySlides{
+.none{
+    display: none;
+}
+
+.block{
     display: block;
 }
 
