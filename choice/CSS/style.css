@@ -1,22 +1,22 @@
 header {
     text-align: center;
-    font-size: 3vw;
+    font-size: 22px;
     font-weight: bolder;
     color: white;
-    background-color: #4c4a4c;
     padding: 20px 20px;
     margin: 0 0;
 }
 
 h2{
-    font-size: 30px;
+    font-size: 22px;
+    color: white;
 }
 
 body {
     margin: 0;
     padding: 0;
     color: rgb(33, 33, 33);
-    font-family: sans-serif;
+    font-family: Cabin, sans-serif;
     animation: colorchange 60s linear 1s infinite;
 }
 @keyframes colorchange
@@ -30,6 +30,14 @@ body {
 }
 
 main {
+    max-width: 80vw;
+    min-height: 60vh;
+    margin: 0 auto;
+    background-color: white;
+    padding-top: 45px;
+}
+
+verification {
     max-width: 800px;
     margin: 0 auto;
 }
@@ -44,15 +52,16 @@ main {
     display: inline-block;
     padding: 32px 32px;
     margin: 50px 50px;
-    justify-content: center;
 }
 
-.A{
+#A{
     background-color: #de4646;
+    display: inline-block;
 }
 
-.B{
+#B{
     background-color: #55a1cd;
+    display: inline-block;
 }
 
 input[type=text]{
@@ -60,7 +69,7 @@ input[type=text]{
 }
 
 input[type=submit]{
-    background-color: #4c4a4c;
+    background-color: #95C11F;
     border: none;
     border-radius: 25px;
     padding: 15px 30px;
@@ -75,10 +84,12 @@ input[type=submit]{
 }
 
 form, .welcome{
+    color: #009FE3;
     text-align: center;
     border: none;
     border-radius: 20px;
-    margin: 75px 50px;
+    margin: 0 auto;
     padding: 50px 50px;
     background-color: #eaeaea;
+    width: 800px;
 }

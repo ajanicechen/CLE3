@@ -70,7 +70,7 @@
             }
         }
         ?>
-        <input type="text" id="email" name="email" placeholder="email">
+        <input type="text" claid="email" name="email" placeholder="email">
         <input type="text" id="verification" name="verification" placeholder="ticketcode">
         <input type="submit" name="submit">
     </form>

@@ -17,8 +17,8 @@
     </header>
         <main>
             <form action="">
-                <button class="buttons A">Choice A</button>
-                <button class="buttons B">Choice B</button>
+                <button class="buttons" id="A">Choice A</button>
+                <button class="buttons" id="B">Choice B</button>
                 <input type="submit" value="submit">
             </form>
         </main>
