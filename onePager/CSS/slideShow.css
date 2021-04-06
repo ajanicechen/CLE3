@@ -1,5 +1,5 @@
 /* Slideshow container */
-.slideshow-container {
+#slideshow-container {
     max-width: 750px;
     position: relative;
     margin: auto;
@@ -58,6 +58,14 @@
 
 img{
     width: 100%;
+}
+
+.none{
+    display: none;
+}
+
+.block{
+    display: block;
 }
 
 @keyframes fade {
